@@ -1,0 +1,15 @@
+# default.yaml
+frequency_cutoff: 25 
+model_state_file: 'model_yelp_classification.pth'
+file_csv: '../data/yelp/reviews_with_splits_lite.csv'
+save_dir: '../model_storage/ch3/yelp/'
+vectorizer_file: 'vectorizer_yelp_review.json'
+batch_size: 128
+early_stopping_criteria: 5
+learning_rate: 0.001
+num_epochs: 3
+seed: 2019
+catch_keyboard_interrupt: True
+cuda: True
+expand_filepaths_to_save_dir: True
+reload_from_files: False
